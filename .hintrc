@@ -1,0 +1,59 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/text-alternatives": [
+      "default",
+      {
+        "image-alt": "off"
+      }
+    ],
+    "axe/structure": [
+      "default",
+      {
+        "list": "off",
+        "listitem": "off"
+      }
+    ],
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ],
+    "no-inline-styles": "off",
+    "axe/parsing": [
+      "default",
+      {
+        "marquee": "off"
+      }
+    ],
+    "detect-css-reflows/composite": "off",
+    "detect-css-reflows/paint": "off",
+    "detect-css-reflows/layout": "off",
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
+    ],
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "height: fit-content",
+          "rotate",
+          "width: fit-content"
+        ]
+      }
+    ],
+    "axe/keyboard": [
+      "default",
+      {
+        "nested-interactive": "off"
+      }
+    ],
+    "button-type": "off"
+  }
+}
